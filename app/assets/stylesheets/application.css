@@ -13,3 +13,73 @@
  *= require_tree .
  *= require_self
  */
+body {
+  background-color: #181a1b;
+  margin: 0;
+}
+
+nav {
+  font-family: "Liberation";
+  background-color: #1c1e1f;
+  height: 45px;
+  border: 1px solid #373b3e;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2px 15px;
+  margin: 0;
+  border-radius: 3px;
+}
+
+nav * {
+  margin: 0;
+  text-decoration: none;
+  color: #9d9488;
+}
+
+nav *:hover {
+  color: rgb(173, 165, 155);
+}
+
+nav h1 {
+  font-size: 17px;
+  font-weight: lighter;
+}
+
+nav .new {
+  font-size: 14px;
+  padding-right: 20px;
+}
+
+.container {
+  width: 40%;
+  margin: 0 auto;
+}
+
+.articles-list {
+  margin-top: 45px;
+}
+
+.articles-list h2 {
+  margin-bottom: 12px;
+}
+
+.article-title {
+  color: #69a6d5;
+  text-decoration: none;
+}
+
+.article-title:hover {
+  color: rgb(141, 187, 223);
+  text-decoration: underline;
+}
+
+.article-content {
+  color: #c8c3bc;
+  margin-top: 12px;
+}
+
+/** Show page **/
+.show-page {
+  color: #c8c3bc;
+}
